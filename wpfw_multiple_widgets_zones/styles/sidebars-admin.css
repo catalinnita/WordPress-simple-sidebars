@@ -1,0 +1,38 @@
+#adminmenu .toplevel_page_setup_sidebars div.wp-menu-image:before {
+	content: '\f135';
+}
+
+.widefat .selected td {
+	color: #FFF;
+	background: #2EA2CC;
+	position: relative;
+	overflow: visible;
+}
+
+.widefat .selected td:first-child:before {
+	left: 0;
+	border: solid 14px rgba(0, 0, 0, 0);
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #2EA2CC;
+	top: 50%;
+	margin-top: -14px;
+	margin-left: -24px;
+	z-index: 3;
+}
+
+.visible {
+	overflow: visible !important;
+}
+
+.wpfw_options_page .widefat td { 
+	line-height: 1.8em;
+}
+
+.wpfw_options_page #col-right {
+	padding-left: 5%;
+	width: 60%;
+}
